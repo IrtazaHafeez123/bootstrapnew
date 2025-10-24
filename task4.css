@@ -184,32 +184,59 @@
      background-color: rgba(170, 4, 4, 0.959);
     border: none;
 }
-
+.imgfoteerbtnn button
+{
+    background-color: rgba(170, 4, 4, 0.959);
+    border: none;
+}
 
 @media(max-width:1024px){
    .heroimg{
     width:100%;
-    height: 100%;
+    height:100vh;
     display: flex;
     margin-left:0;
     justify-content: start;
-    margin-bottom: 2%;
-    }
-    .newdev{
-        margin-top: 3%;
-    display: flex;
-    width:100%;
-    height: 100%;
-    
-}
-.heroimg{
-    width:100%;
-    height:80vh;
     background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2%;
+    
      box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.4);
      overflow: hidden;
-    
+    }
+    .artical{
+        width: 100vh;
+    }
+    .borderrr{
+    border-bottom:none;
+    border: none;
 }
+.borderr{
+    border-left:none;
+    border-right: none;
+}
+}
+.borderrr{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.219);
+}
+.borderr{
+    border-left:1px solid rgba(0, 0, 0, 0.185);
+    border-right: 1px solid rgba(0, 0, 0, 0.219);
+}
+.lastfooterleftbor{
+    background-color: gray;
+}
+.lastfooterleftbtn button{
+   border:none;
+   background-color: gray;
+   color: white;
+}
+.lastfooterrightbtn button{
+       background-color: rgba(170, 4, 4, 0.959);
+       border:  none;
+}
+.lastfooterrightbtn{
+    border-top: 2px solid black;
 }
 /*
 .headtext{
